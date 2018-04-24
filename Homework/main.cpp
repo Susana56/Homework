@@ -1,15 +1,28 @@
-//
-//  main.cpp
-//  Homework
-//
-//  Created by Susana Munguia on 4/22/18.
-//  Copyright © 2018 Susana Munguia. All rights reserved.
-//
-
 #include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+#include <ctime>
+#include <cstdlib>
+#include "cards.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+// Global constants (if any)
+
+
+// Non member functions declarations (if any)
+
+
+// Non member functions implementations (if any)
+
+
+int main(){
+    int bet;
+    Player A(100);
+    
+    cout << "You have $" << A.get_amount() << ". Enter bet: ";
+    
+    cin >> bet;
+    
     return 0;
 }
